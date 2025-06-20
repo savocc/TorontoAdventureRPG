@@ -11,9 +11,6 @@
 
   <ItemGroup>
     <Content Include="Images\Icon\CN-Icon.ico" />
-    <Resource Include="Resources\Delius-Regular.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
 
 
