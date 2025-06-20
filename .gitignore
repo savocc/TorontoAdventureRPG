@@ -1,0 +1,34 @@
+# Build directories
+bin/
+obj/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Configuration files
+appsettings.Development.json
+appsettings.*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Test results
+TestResults/
+
+#Publish profiles
+PublishProfiles/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Other generated files
+*.db
+*.pdb

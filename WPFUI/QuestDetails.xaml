@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPFUI.QuestDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        FontSize="11pt"
+        Title="Quest Details" Height="480" Width="740"
+          Loaded="OnLoad">
+    <DataGrid
+            Margin="10"
+            AutoGenerateColumns="False" Name="dataGrid" 
+            CanUserReorderColumns="true">
+    </DataGrid>
+</Window>

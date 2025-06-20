@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\Icon\CN-Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Icon\CN-Icon.ico" />
+    <Resource Include="Resources\Delius-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\BotanicGarden.png" />
+    <Resource Include="Images\Locations\BrickFactory.png" />
+    <Resource Include="Images\Locations\HarbourLookout.png" />
+    <Resource Include="Images\Locations\HighPark.png" />
+    <Resource Include="Images\Locations\HunterHouse.png" />
+    <Resource Include="Images\Locations\TommyThompson.png" />
+    <Resource Include="Images\Locations\TradingShop.png" />
+    <Resource Include="Images\Locations\House.png" />
+    <Resource Include="Images\Monsters\CanadaGoose.png" />
+    <Resource Include="Images\Monsters\Coyote.png" />
+    <Resource Include="Images\Monsters\TrashPanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.csproj" />
+  </ItemGroup>
+
+</Project>
